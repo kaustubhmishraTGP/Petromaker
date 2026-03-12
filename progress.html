@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Setup VPS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<div class="sidebar">
+
+<h2>HostPanel</h2>
+
+<a>Setup VPS</a>
+<a>Install Panel</a>
+
+</div>
+
+<div class="content">
+
+<h1>Connect Your VPS</h1>
+
+<div class="glass-card">
+
+<input placeholder="Server IP">
+<input placeholder="SSH Username">
+<input type="password" placeholder="SSH Password">
+<input placeholder="Email for SSL">
+
+<button class="primary" onclick="askDomain()">Next</button>
+
+</div>
+
+<div id="domainQuestion" style="display:none">
+
+<h2>Do you have a domain?</h2>
+
+<button onclick="domainYes()">Yes</button>
+<button onclick="domainNo()">No</button>
+
+</div>
+
+<div id="domainInput" style="display:none">
+
+<input placeholder="panel.example.com">
+
+<button class="primary" onclick="startInstall()">Install Panel</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
