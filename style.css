@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+<div class="sidebar">
+
+<h2>HostPanel</h2>
+
+<a>Dashboard</a>
+<a>My Servers</a>
+<a>Install Panel</a>
+<a>Logs</a>
+<a>Account</a>
+
+</div>
+
+<div class="content">
+
+<h1>Dashboard</h1>
+
+<div class="stats">
+
+<div class="card">
+<h3>Connected Servers</h3>
+<p>2</p>
+</div>
+
+<div class="card">
+<h3>Panels Installed</h3>
+<p>1</p>
+</div>
+
+<div class="card">
+<h3>Running Installations</h3>
+<p>0</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
